@@ -48,9 +48,9 @@ namespace WindowsFormsApplication2
                 sc.Port = 587;
                 sc.Host = "smtp.gmail.com";
                 sc.EnableSsl = true;
-                sc.Credentials = new NetworkCredential("sqlmailci@gmail.com", "1252d7123");
+                sc.Credentials = new NetworkCredential("/*MAIL ADRES*/", "/*MAIL SIFRE*/");
                 
-                mail.From = new MailAddress("sqlmailci@gmail.com", "Tebi Akademi");
+                mail.From = new MailAddress("/*MAIL ADRES*/", "/*MAIL BASLIK*/");
 
                 mail.To.Add(txtmailemail.Text.ToString());
 
